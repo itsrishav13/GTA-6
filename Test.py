@@ -1,4 +1,3 @@
 def test(n):
-    return n-1
-print(test(15))
-
+    return [i for i in range(n)]
+test(15)
