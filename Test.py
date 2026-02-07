@@ -1,3 +1,4 @@
 def test(n):
-    return n*n
-test(15)
+    return n-1
+print(test(15))
+
