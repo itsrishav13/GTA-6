@@ -1,4 +1,4 @@
 def test(n):
-    return [i for i in range(n)]
+    return [i+1 for i in range(n)]
 print(*test(15))
 
